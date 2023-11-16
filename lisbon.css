@@ -239,7 +239,7 @@ footer a:hover {
   }
   .grid-gallery {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-areas:
       "in1 in4"
       "in7 in7"
