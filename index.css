@@ -1,0 +1,160 @@
+.justify {
+  text-align: justify;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+.navbar-brand {
+  font-family: "Dr Sugiyama", cursive;
+}
+.website-name {
+  font-family: "Dr Sugiyama", cursive;
+  font-size: 52px;
+}
+.my-quote {
+  font-family: "Edu TAS Beginner", cursive;
+  font-size: 28px;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://s30.picofile.com/file/8469601742/index_header2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.my-gallery-button {
+  background-color: #004d64;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  padding: 15px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 10px;
+}
+img {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.my-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3/5;
+}
+.city-destination a {
+  color: #004d64 !important;
+}
+.city-destination a:link {
+  color: #004d64 !important;
+}
+.city-destination a:hover {
+  color: #008bb6 !important;
+}
+button a {
+  text-decoration: none;
+  color: white !important;
+}
+a:link {
+  text-decoration: none !important;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+header a:link {
+  text-decoration: none !important;
+}
+header a:visited {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  text-decoration: none;
+}
+.city-destination {
+  margin: 10px;
+  padding: 20px;
+}
+.title {
+  padding-bottom: 20px;
+}
+.grid-destinations {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+.destination-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5/3;
+}
+.city-name {
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+  color: #004d64;
+  padding-top: 10px;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 15px;
+}
+
+.footer-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://s30.picofile.com/file/8469601726/index_footer2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  color: white;
+  text-align: center;
+}
+footer a {
+  color: white;
+  transform: 0.2s ease-in-out;
+}
+footer a:hover {
+  color: blue;
+}
+
+.contact-submit-button {
+  background-color: #004d64 !important;
+}
+
+@media (max-width: 600px) {
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-aboutme {
+    display: none;
+  }
+  .grid-destinations {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .my-image {
+    text-align: center;
+  }
+}

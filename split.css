@@ -1,0 +1,271 @@
+.justify {
+  text-align: justify;
+}
+img {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button a {
+  text-decoration: none;
+  color: white !important;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.navbar-brand {
+  font-family: "Dr Sugiyama", cursive;
+}
+header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://s30.picofile.com/file/8469604292/split_header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.my-gallery-button {
+  background-color: #004d64;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 3px;
+  padding: 15px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none !important;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+header a {
+  color: white;
+}
+header a:link {
+  text-decoration: none !important;
+}
+header a:visited {
+  text-decoration: none;
+  color: white;
+}
+header a:hover {
+  text-decoration: none;
+}
+.title {
+  padding-bottom: 20px;
+  color: #004d64;
+}
+.about {
+  padding: 15px 20px;
+  margin-top: 30px;
+}
+.grid-2 {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 10px;
+}
+.city-name {
+  font-size: 50px;
+}
+.city-quote {
+  color: rgb(53, 53, 53);
+  font-size: 24px;
+}
+
+.city-sights {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px 20px;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.sight {
+  text-align: center;
+}
+.sight-image {
+  width: 100%;
+  aspect-ratio: 5/3;
+  border-radius: 10px;
+}
+.type-of-landmark {
+  color: gray;
+  font-size: x-small;
+}
+.sight-button {
+  background-color: #004d64;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.My-experience {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px 20px;
+}
+
+.my-picture {
+  width: 100%;
+  border-radius: 10px;
+}
+.letter-img {
+  width: 100%;
+  aspect-ratio: 16/8;
+}
+
+.gallery {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px 20px;
+}
+.i1 {
+  grid-area: in1;
+}
+.i2 {
+  grid-area: in2;
+}
+.i3 {
+  grid-area: in3;
+}
+.i4 {
+  grid-area: in4;
+}
+.i5 {
+  grid-area: in5;
+}
+.i6 {
+  grid-area: in6;
+}
+.i7 {
+  grid-area: in7;
+}
+.i8 {
+  grid-area: in8;
+}
+.i9 {
+  grid-area: in9;
+}
+.i10 {
+  grid-area: in10;
+}
+.i11 {
+  grid-area: in11;
+}
+.i12 {
+  grid-area: in12;
+}
+.i13 {
+  grid-area: in13;
+}
+.i14 {
+  grid-area: in14;
+}
+
+.grid-gallery {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "in1 in2 in3 in3"
+    "in4 in2 in5 in6"
+    "in7 in7 in8 in6"
+    "in9 in10 in11 in12"
+    "in13 in14 in14 in12";
+  gap: 10px;
+  padding: 10px;
+}
+
+.gallery-pic {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.2s ease-in-out;
+}
+.gallery-pic:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 15px;
+}
+.footer-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://s30.picofile.com/file/8469604284/split_footer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 90px 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  color: white;
+  text-align: center;
+}
+footer a {
+  color: white;
+  transform: 0.2s ease-in-out;
+}
+footer a:hover {
+  color: blue;
+}
+
+@media (max-width: 700px) {
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+  .map {
+    text-align: center;
+  }
+  .grid-4 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .city-sights {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    margin: 10px 20px;
+  }
+  .grid-gallery {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "in1 in4"
+      "in7 in7"
+      "in3 in3"
+      "in5 in8"
+      "in6 in12"
+      "in6 in12"
+      "in14 in14"
+      "in9 in10"
+      "in11 in13";
+    gap: 10px;
+    padding: 10px;
+  }
+  .i2 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .grid-3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-aboutme {
+    display: none;
+  }
+}
