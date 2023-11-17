@@ -160,3 +160,15 @@ footer a:hover {
     max-width: 100%;
   }
 }
+table {
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+td {
+  border-top: 1px solid lightgray;
+}
+
+.responsive-table {
+  overflow-x: auto;
+}
